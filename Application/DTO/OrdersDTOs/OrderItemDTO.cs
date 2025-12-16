@@ -1,0 +1,9 @@
+
+namespace Application.DTO;
+
+public class OrderItemDTO
+{
+	public string? Id;
+	public string ItemId { get; set; } = string.Empty;
+	public int Quantity { get; set; }
+}
