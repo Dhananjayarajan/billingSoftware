@@ -44,6 +44,7 @@ var app = builder.Build();
 
 app.UseAuthentication();
 app.UseAuthorization();
+app.MapGet("/", () => "Billing Software API is running");
 
 app.MapControllers();
 
